@@ -1,75 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Joker Tennis</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    body {
-      background: #0a0a0a;
-      color: white;
-      font-family: 'Inter', sans-serif;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-    }
-    .subscriber-counter {
-      font-size: 1.5rem;
-      font-weight: 600;
-      color: #10b981;
-      margin-top: 0.25rem;
-    }
-    .cta-btn {
-      background: linear-gradient(90deg, #06b6d4, #3b82f6);
-      color: white;
-      padding: 0.8rem 2rem;
-      border-radius: 9999px;
-      font-weight: 700;
-      font-size: 1.1rem;
-      margin-top: 1.2rem;
-      transition: transform 0.2s ease, opacity 0.2s ease;
-    }
-    .cta-btn:hover {
-      transform: scale(1.05);
-      opacity: 0.9;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>🔥Laxmi App | Trusted by 10,000+ Indian Users</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #222;
+  }
+
+  .container {
+    max-width: 420px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(90deg, #007bff, #00d4ff);
+    color: white;
+  }
+
+  header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    margin-right: 15px;
+  }
+
+  header h1 {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+
+  header p {
+    font-size: 0.85rem;
+    margin: 2px 0 0 0;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .tagline {
+    text-align: center;
+    font-size: 1rem;
+    padding: 12px 16px;
+    color: #333;
+  }
+
+  .download-btn {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    background: #00b33c;
+    color: white;
+    text-align: center;
+    padding: 14px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    position: relative;
+    animation: pulse 1.5s infinite;
+  }
+
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(0,179,60,0.7); }
+    70% { box-shadow: 0 0 0 12px rgba(0,179,60,0); }
+    100% { box-shadow: 0 0 0 0 rgba(0,179,60,0); }
+  }
+
+  .stats {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #666;
+  }
+
+  /* Reviews Section */
+  .reviews {
+    padding: 15px;
+  }
+
+  .reviews h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .review-count {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+
+  .review {
+    border-top: 1px solid #eee;
+    padding: 10px 0;
+  }
+
+  .review h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .stars {
+    color: #ffb400;
+    font-size: 0.9rem;
+  }
+
+  .review p {
+    font-size: 0.9rem;
+    color: #444;
+    margin-top: 5px;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #777;
+    padding: 15px;
+  }
+</style>
 </head>
 <body>
-  <div class="flex flex-col items-center">
-    <!-- Channel DP -->
-    <img src="your-dp.webp" alt="Joker Tennis DP" width="120" height="120" class="rounded-full mb-4 shadow-lg">
 
-    <!-- Channel Heading -->
-    <h1 class="text-3xl font-bold text-white">🎾 Joker Tennis</h1>
+<div class="container">
+  <header>
+    <img src="laxmilogo.png" alt="App Logo">
+    <div>
+      <h1>Laxmi App</h1>
+      <p>Play And Get Instant Rewards.</p>
+    </div>
+  </header>
 
-    <!-- Subscriber Counter -->
-    <div class="subscriber-counter" id="subscriberCount">43,989</div>
+  <img src="banner.jpeg" class="hero-img" alt="App Banner">
 
-    <!-- Tagline -->
-    <p class="text-gray-300 text-lg mt-2">All Tennis Matches Reports Here.</p>
+  <div class="tagline">100% Genuine Indian Game App 🇮🇳</div>
 
-    <!-- CTA Button -->
-    <a href="https://t.me/yourchannel" class="cta-btn">Join My Free Telegram Channel</a>
+  <div class="stats">⭐ 4.8 · 200 Reviews · 10K+ Downloads</div>
 
-    <!-- Bottom Line -->
-    <p class="text-gray-400 text-sm mt-6">Sabse Genuine and Accurate Kaam Milega Yaha par.</p>
-  </div>
+  <a href="https://github.com/mahalaxmiapp/official/releases/download/v1/myapp.apk" class="download-btn">Download Now</a>
 
-  <script>
-    let count = 43989;
-    const counterEl = document.getElementById('subscriberCount');
+  <!-- Reviews -->
+  <section class="reviews">
+    <h2>What Indian Users Say</h2>
+    <div class="review-count">Based on 200 reviews</div>
 
-    function updateCount() {
-      count++;
-      counterEl.textContent = count.toLocaleString();
-    }
+    <div class="review">
+      <h3>Rohit Sharma <span class="stars">★★★★★</span></h3>
+      <p>Been using it for a month! 100% genuine app — instant withdrawal and smooth experience.</p>
+    </div>
 
-    setInterval(updateCount, 1000);
-  </script>
+    <div class="review">
+      <h3>Amit Verma <span class="stars">★★★★★</span></h3>
+      <p>Trusted app!. Highly recommended.</p>
+    </div>
+
+    <div class="review">
+      <h3>Rahul Singh <span class="stars">★★★★☆</span></h3>
+      <p>Real, no fake promises.!</p>
+    </div>
+
+    <div class="review">
+      <h3>Vikas Mehta <span class="stars">★★★★★</span></h3>
+      <p>This is a trustworthy app — finally something that works in India!</p>
+    </div>
+  </section>
+
+  <footer>© 2025 Mahalaxmi App · All rights reserved</footer>
+</div>
+ <!-- Meta Pixel Code (Optimized for GitHub Pages) -->
+<script>
+(function() {
+  function loadPixel() {
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '32336017656014164');
+    fbq('track', 'PageView');
+    console.log('✅ Meta Pixel initialized successfully.');
+  }
+
+  // Load Pixel only after the full page is ready
+  if (document.readyState === 'complete') {
+    loadPixel();
+  } else {
+    window.addEventListener('load', loadPixel);
+  }
+})();
+</script>
+
+<noscript>
+  <img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=32336017656014164&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Meta Pixel Code -->
+
+
 </body>
 </html>
